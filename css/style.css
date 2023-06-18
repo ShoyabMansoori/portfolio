@@ -1,0 +1,536 @@
+* {
+    /* font-family: 'Abril Fatface', cursive; */
+    /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'Tilt Prism', cursive; */
+    /* font-family: 'Titillium Web', sans-serif; */
+}
+
+/* headder css */
+
+header .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(94, 94, 94);
+    opacity: 0.9;
+    z-index: 1;
+    box-shadow: 2px 2px 10px rgb(107, 91, 255);
+
+    font-family: 'Libre Baskerville', serif;
+}
+
+#main-header .navbar-contant a {
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+    padding: 5px 9px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main-header .navbar-contant a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 9px;
+    text-decoration: none;
+}
+
+.navbar-contant button {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.navbar-contant button:hover {
+    background-color: rgb(89, 89, 89);
+    padding: 7px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+/* main css */
+
+/* home section css */
+.homeSection .container-fluid {
+    font-family: 'Abril Fatface', cursive;
+    background-image: url(/imges/background.jpg);
+    height: 720px;
+}
+
+.homeSection .container-fluid h1 {
+    padding: 250px 0px;
+    color: white;
+}
+
+.homeSection .container-fluid a button {
+    margin-top: 10px;
+}
+
+/* end home section css */
+
+/* about section css */
+.aboutSection .container-fluid p {
+    padding: 1px 50px;
+}
+
+.aboutSection .container-fluid .aboutContant h3 {
+    padding: 3px 0px;
+}
+
+.aboutSection .container-fluid .knowladgeSec {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 60px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.aboutSection .container-fluid .knowladgeSec p {
+    color: rgb(87, 87, 87);
+    margin-top: 10px;
+}
+
+.progress {
+    margin: 30px 10px;
+    font-style: 100px;
+    font-weight: bold;
+}
+
+.progress:hover {
+    box-shadow: 0px 3px 10px #9e9e9e;
+    height: 1.5rem;
+    margin: 30px 10px;
+    font-style: 100px;
+    font-weight: bold;
+}
+
+.aboutSection .progressbarSec {
+    margin: 0px 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutSection .progressbarSec {
+        margin: 0 10px;
+    }
+
+    .aboutSection .container-fluid .knowladgeSec {
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    .certificateButton {
+        margin-right: 10px;
+    }
+}
+
+.aboutSection .educationDetails p {
+    padding: 0px 50px;
+    margin-bottom: 0px;
+}
+
+.certificateButton {
+    margin-top: 87px;
+}
+
+.certificateButton div a {
+    margin-top: 15px;
+}
+
+/* end about section css  */
+
+/* project section css */
+.projectSection {
+    padding-bottom: 50px;
+    background-color: #f5f5f5;
+}
+
+.projectSection .card {
+    margin-top: 10px;
+}
+
+.card-img-overlay a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+/* Contact section css */
+.contactSection .container-fluid {
+    background-color: rgb(94, 94, 94);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contactSection .container-fluid .heading h2 {
+    color: white;
+}
+
+.contactSection .container-fluid input,
+.contactSection .container-fluid textarea {
+    background-color: rgb(65, 65, 65);
+    border: none;
+}
+
+.contactSection .container-fluid button {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.contactSection .container-fluid input,
+.contactSection .container-fluid textarea {
+    width: 70%;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 1px 30px;
+}
+
+/* end main css */
+
+
+/* footer css */
+footer {
+    background-color: rgb(94, 94, 94);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+footer .container-fluid h5 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer .container-fluid i {
+    color: #bebebe;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+/* end footer css */
+
+/* **** */
+.heading h2 {
+    font-weight: bold;
+    text-decoration-line: underline;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+/* button  */
+:root {
+    /* color type A */
+    --line_color: #ffffff;
+    --back_color: #bebebe;
+
+    /* color type B */
+    /* --line_color : #1b1919 ;
+    --back_color : #E9ECFF  ; */
+
+    /* color type C */
+    /* --line_color : #00135C ;
+    --back_color : #DEFFFA  ; */
+}
+
+.button {
+    position: relative;
+    z-index: 0;
+    width: 240px;
+    height: 56px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--line_color);
+    letter-spacing: 2px;
+    transition: all .3s ease;
+}
+
+.button__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button::before,
+.button::after,
+.button__text::before,
+.button__text::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--line_color);
+    transition: all .5s ease;
+}
+
+.button::before {
+    top: 0;
+    left: 54px;
+    width: calc(100% - 56px * 2 - 16px);
+}
+
+.button::after {
+    top: 0;
+    right: 54px;
+    width: 8px;
+}
+
+.button__text::before {
+    bottom: 0;
+    right: 54px;
+    width: calc(100% - 56px * 2 - 16px);
+}
+
+.button__text::after {
+    bottom: 0;
+    left: 54px;
+    width: 8px;
+}
+
+.button__line {
+    position: absolute;
+    top: 0;
+    width: 56px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.button__line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 150%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 300px;
+    border: solid 3px var(--line_color);
+}
+
+.button__line:nth-child(1),
+.button__line:nth-child(1)::before {
+    left: 0;
+}
+
+.button__line:nth-child(2),
+.button__line:nth-child(2)::before {
+    right: 0;
+}
+
+.button:hover {
+    letter-spacing: 6px;
+}
+
+.button:hover::before,
+.button:hover .button__text::before {
+    width: 8px;
+}
+
+.button:hover::after,
+.button:hover .button__text::after {
+    width: calc(100% - 56px * 2 - 16px);
+}
+
+.button__drow1,
+.button__drow2 {
+    position: absolute;
+    z-index: -1;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+}
+
+.button__drow1 {
+    top: -16px;
+    left: 40px;
+    width: 32px;
+    height: 0;
+    transform: rotate(30deg);
+}
+
+.button__drow2 {
+    top: 44px;
+    left: 77px;
+    width: 32px;
+    height: 0;
+    transform: rotate(-127deg);
+}
+
+.button__drow1::before,
+.button__drow1::after,
+.button__drow2::before,
+.button__drow2::after {
+    content: '';
+    position: absolute;
+}
+
+.button__drow1::before {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(-60deg);
+}
+
+.button__drow1::after {
+    top: -10px;
+    left: 45px;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(69deg);
+}
+
+.button__drow2::before {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(-146deg);
+}
+
+.button__drow2::after {
+    bottom: 26px;
+    left: -40px;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(-262deg);
+}
+
+.button__drow1,
+.button__drow1::before,
+.button__drow1::after,
+.button__drow2,
+.button__drow2::before,
+.button__drow2::after {
+    background: var(--back_color);
+}
+
+.button:hover .button__drow1 {
+    animation: drow1 ease-in .06s;
+    animation-fill-mode: forwards;
+}
+
+.button:hover .button__drow1::before {
+    animation: drow2 linear .08s .06s;
+    animation-fill-mode: forwards;
+}
+
+.button:hover .button__drow1::after {
+    animation: drow3 linear .03s .14s;
+    animation-fill-mode: forwards;
+}
+
+.button:hover .button__drow2 {
+    animation: drow4 linear .06s .2s;
+    animation-fill-mode: forwards;
+}
+
+.button:hover .button__drow2::before {
+    animation: drow3 linear .03s .26s;
+    animation-fill-mode: forwards;
+}
+
+.button:hover .button__drow2::after {
+    animation: drow5 linear .06s .32s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes drow1 {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 100px;
+    }
+}
+
+@keyframes drow2 {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0;
+    }
+
+    11% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 120px;
+    }
+}
+
+@keyframes drow3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80px;
+    }
+}
+
+@keyframes drow4 {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 120px;
+    }
+}
+
+@keyframes drow5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 124px;
+    }
+}
+
+.homeSection .container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+
+/* colgroup  */
+.cl {
+    color: #2bff00;
+    /* color: #e31b6d; */
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.margin10 {
+    margin: 2px 0px;
+}
