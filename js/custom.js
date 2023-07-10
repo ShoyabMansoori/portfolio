@@ -1,3 +1,35 @@
+const NavHome = document.getElementById('navHome');
+const NavAbout = document.getElementById('navAbout');
+const NavCertificate = document.getElementById('navCertificate');
+const NavProject = document.getElementById('navProject');
+const NavContact = document.getElementById('navContact');
+const UpScroll = document.getElementById('upScroll');
+
+NavHome.addEventListener('click', function (event) {
+    event.preventDefault();
+    window.location.href="#home";
+});
+NavAbout.addEventListener('click', function (event) {
+    event.preventDefault();
+    window.location.href="#about";
+});
+NavCertificate.addEventListener('click', function (event) {
+    event.preventDefault();
+    window.location.href="#certificate";
+});
+NavProject.addEventListener('click', function (event) {
+    event.preventDefault();
+    window.location.href="#project";
+});
+NavContact.addEventListener('click', function (event) {
+    event.preventDefault();
+    window.location.href="#contact";
+});
+UpScroll.addEventListener('click', function (event) {
+    event.preventDefault();
+    window.location.href="#home";
+});
+
 function sendEmail() {
 let name=document.getElementById("nameInput").value;
 let email=document.getElementById("emailInput").value;
