@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shoyab portfolio</title>
 
-  <!-- font style  -->
+  <!-- google font style  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -38,27 +38,31 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-contant">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" id="navHome">Home</a>
+              <a class="nav-link pointer active" aria-current="page" id="navHome">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="navAbout">About</a>
+              <a class="nav-link pointer" id="navAbout">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="navCertificate">Certificate</a>
+              <a class="nav-link pointer" id="navSkill">Skill Level</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="navProject">Projects</a>
+              <a class="nav-link pointer" id="navProject">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="navContact"><button type="button" class="btn">Contact</button></a>
+              <a class="nav-link pointer" id="navCertificate">Certificate</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" id="navContact" class="btn">Contact</button>
             </li>
             <li class="nav-item dropdown">
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#certificate">Certificate</a>
-                <a href="#project">Projects</a>
-                <a href="#contact"><button type="button" class="btn">Contact</button></a>
+                <a class="pointer" id="navbarDropdownHome">Home</a>
+                <a class="pointer" id="navbarDropdownAbout">About</a>
+                <a class="pointer" id="navbarDropdownSkill">Skill Level</a>
+                <a class="pointer" id="navbarDropdownProject">Projects</a>
+                <a class="pointer" id="navbarDropdownCertificate">Certificate</a>
+                <button type="button" id="navbarDropdownContact" class="btn">Contact</button>
               </ul>
             </li>
           </ul>
@@ -74,7 +78,6 @@
       <div class="container-fluid text-center align-middle">
         <h1>Hello, I'm <span class="cl">Shoyab Mansoori.</span>
           <p class="text-break">I'm a full stack web doveloper.</p>
-          <!-- <button type="button" href="#about" class="">view my work</button> -->
           <div class="container">
             <a href="#about" class="button">
               <div class="button__line"></div>
@@ -119,19 +122,19 @@
               <p>Websites don't have to be static, I love making pages come to life.</p>
             </div>
           </div>
-          <div class="row knowladgeSec">
-            <div class="col-xl-3 col-12 text-center shadow p-3 mb-5 bg-body rounded">
+          <div class="row knowladgeSec square-wrapper">
+            <div class="col-xl-4 col-12 square square-transition text-center shadow p-3 mb-5 bg-body rounded">
               <img src="imges/images.png" alt="" height="105px" width="125px">
-              <p>To work in a challenging Environment that provides a venue for applying my skills sat and knowledge
+              <p class="revealUp">To work in a challenging Environment that provides a venue for applying my skills sat
+                and knowledge
                 base to the success and growth of the organization. I am a highly driven
                 recent graduate seeking a full-time position in an organization where I can lend my knowledge of
                 computer science to help your organization's development & learn something new with work & get
                 experience</p>
             </div>
-            <div class="col-xl-6  col-8 progressbarSec text-center" id="certificate">
-              <div class="text-end">
-                <h2>CERTIFICATE</h2>
-                <p>Skill level</p>
+            <div class="col-xl-7  col-8 progressbarSec text-center" id="skillLevel">
+              <div class="text-center slideUp">
+                <h2>Skill level</h2>
               </div>
 
               <div class="progress" style="height: 1.5rem;">
@@ -183,69 +186,74 @@
                   aria-valuemax="100">70%</div>
               </div>
             </div>
-            <div class="col-xl-2  col-3 text-start">
-              <div class="certificateButton">
-                <div>
-                  <!-- java  -->
-                  <a href="https://skill-lync.com/certification/individual/so59qvaz2get16l7" type="button"
-                    class="btn btn-outline-primary">certificarte</a>
-                </div>
-                <div>
-                  <!-- DSA  -->
-                  <a href="https://skill-lync.com/certification/individual/w9ol3jnxd6qsf2p8" type="button"
-                    class="btn btn-outline-primary">certificarte</a>
-                </div>
-                <div>
-                  <!-- HTML  -->
-                  <a href="#certificate" type="button" class="btn btn-outline-primary">certificarte</a>
-                </div>
-                <div>
-                  <!-- CSS  -->
-                  <a href="#certificate" type="button" class="btn btn-outline-primary">certificarte</a>
-                </div>
-                <div>
-                  <!-- Java Script  -->
-                  <a href="#certificate" type="button" class="btn btn-outline-primary">certificarte</a>
-                </div>
-                <div>
-                  <!-- SQL  -->
-                  <a href="https://skill-lync.com/certification/individual/tghp9wc1ok3vd8na" type="button"
-                    class="btn btn-outline-primary">certificarte</a>
-                </div>
-                <div>
-                  <!-- UI design  -->
-                  <a href="#certificate" type="button" class="btn btn-outline-primary">certificarte</a>
-                </div>
-                <div>
-
-                  <!-- Node.JS  -->
-                  <a href="https://skill-lync.com/certification/individual/tghp9wc1ok3vd8na" type="button"
-                    class="btn btn-outline-primary">certificarte</a>
-                </div>
-                <div>
-                  <!-- MongoDB  -->
-                  <a href="https://skill-lync.com/certification/individual/tghp9wc1ok3vd8na" type="button"
-                    class="btn btn-outline-primary">certificarte</a>
+          </div>
+          <!-- end about area  -->
+          <!-- project section  -->
+          <section class="projectSection" id="project">
+            <div class="container-fluid text-center">
+              <div class="heading">
+                <h2>PROJECT</h2>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-4 col-sm-6 col-12">
+                    <div class="card bg-dark text-white">
+                      <img src="imges/au solution.png" class="card-img-top" alt="...">
+                      <div class="card-img-overlay text-end">
+                        <a href="https://play.google.com/store/apps/details?id=com.ausolutionkota.ausolution&hl=en-IN"
+                          class="btn ">View Project</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-12">
+                    <div class="card bg-dark text-white">
+                      <img src="imges/hurst.png" class="card-img-top" alt="...">
+                      <div class="card-img-overlay">
+                        <div class="card-img-overlay text-end">
+                          <a href="https://play.google.com/store/apps/details?id=com.ausolutionkota.ausolution&hl=en-IN"
+                            class="btn ">View Project</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-12">
+                    <div class="card bg-dark text-white">
+                      <img src="imges/travel.png" class="card-img-top" alt="...">
+                      <div class="card-img-overlay">
+                        <div class="card-img-overlay text-end">
+                          <a href="https://play.google.com/store/apps/details?id=com.ausolutionkota.ausolution&hl=en-IN"
+                            class="btn ">View Project</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- end about area  -->
-
+          </section>
+          <!--end project section  -->
           <!-- Education area  -->
-          <div class="">
+          <div class="container">
             <div class="heading">
               <h2>EDUCATION</h2>
             </div>
             <div class="educationDetails">
-              <div class="row">
-                <div class="col-md-6 col-12 shadow-sm p-3 mb-5 bg-body rounded">
+              <div class="row text-center">
+                <div class=" col-md-4 col-12 shadow-sm p-3 mb-5 bg-body rounded pointer" id="srsec">
+                  <img src="imges/starSchool.jpeg" alt="" height="100px" width="100px">
+                  <h4>12th (Mathmatics)</h4>
+                  <p>Star Public Sr. Sec. School</p>
+                  <p>(2016 - 2017) Kota, Rajastan</p>
+                </div>
+                <div class=" col-md-3 col-12 shadow-sm p-3 mb-5 bg-body rounded mrLeft10 mrTop10 pointer"
+                  id="gradutaion">
                   <img src="imges/okimr.jpeg" alt="" height="100px" width="100px">
                   <h4>Bachelors's in Computer Application</h4>
                   <p>Om Kothari Institute of Management and Research</p>
                   <p>(2017 - 2020) Kota, Rajastan</p>
                 </div>
-                <div class="col-md-6 col-12 shadow-sm p-3 mb-5 bg-body rounded">
+                <div class=" col-md-4 col-12 shadow-sm p-3 mb-5 bg-body rounded mrLeft10 mrTop10 pointer"
+                  id="postGradutaion">
                   <img src="imges/uok.png" alt="" height="100px" width="100px">
                   <h4>Master of Computer Application</h4>
                   <p>University of Kota</p>
@@ -257,48 +265,37 @@
           </div>
     </section>
     <!-- end about section  -->
-
-    <!-- project section  -->
-    <section class="projectSection" id="project">
-      <div class="container-fluid text-center">
+    <!-- Certificate section  -->
+    <section class="certificateSection text-center" id="certificate">
+      <div class="container pdbottom20">
         <div class="heading">
-          <h2>PROJECT</h2>
+          <h2>Certificate</h2>
         </div>
-        <div class="container">
+        <div>
           <div class="row">
-            <div class="col-xl-4 col-sm-6 col-12">
-              <div class="card bg-dark text-white">
-                <img src="imges/au solution.png" class="card-img-top" alt="...">
-                <div class="card-img-overlay text-end">
-                  <a href="https://play.google.com/store/apps/details?id=com.ausolutionkota.ausolution&hl=en-IN" class="btn ">View Project</a>
-                </div>
-              </div>
+            <div class="certificate col-xl-4 col-sm-6 col-12 pdTop10 pdLeft10">
+              <img src="imges/Internship.jpg" class="img-fluid">
             </div>
-            <div class="col-xl-4 col-sm-6 col-12">
-              <div class="card bg-dark text-white">
-                <img src="imges/new arrival.png" class="card-img-top" alt="...">
-                <div class="card-img-overlay">
-                  <div class="card-img-overlay text-end">
-                  <a href="https://play.google.com/store/apps/details?id=com.ausolutionkota.ausolution&hl=en-IN" class="btn ">View Project</a>
-                </div>
-                </div>
-              </div>
+            <div class="certificate col-xl-4 col-sm-6 col-12 pdTop10 pdLeft10">
+              <img src="imges/java core.jpg" class="img-fluid">
             </div>
-            <div class="col-xl-4 col-sm-6 col-12">
-              <div class="card bg-dark text-white">
-                <img src="imges/fashion.png" class="card-img-top" alt="...">
-                <div class="card-img-overlay">
-                  <div class="card-img-overlay text-end">
-                  <a href="https://play.google.com/store/apps/details?id=com.ausolutionkota.ausolution&hl=en-IN" class="btn ">View Project</a>
-                </div>
-                </div>
-              </div>
+            <div class="certificate col-xl-4 col-sm-6 col-12 pdTop10 pdLeft10">
+              <img src="imges/Intro to java programming.jpg" class="img-fluid">
+            </div>
+            <div class="certificate col-xl-4 col-sm-6 col-12 pdTop10 pdLeft10">
+              <img src="imges/DSA in java.jpg" class="img-fluid">
+            </div>
+            <div class="certificate col-xl-4 col-sm-6 col-12 pdTop10 pdLeft10">
+              <img src="imges/SQL & MongoDB.jpg" class="img-fluid">
+            </div>
+            <div class="certificate col-xl-4 col-sm-6 col-12 pdTop10 pdLeft10">
+              <img src="imges/Green-a-thonCertificate.jpg" class="img-fluid">
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--end project section  -->
+    <!-- end Certificate section  -->
 
     <!-- contact section  -->
     <section class="contactSection text-center" id="contact">
@@ -307,7 +304,7 @@
           <h2>CONTACT</h2>
         </div>
         <div>
-          <form onsubmit="sendEmail(); reset(); return false;">
+          <form id="contactForm">
             <div class="margin10">
               <input type="text" id="nameInput" class="" placeholder="Name">
             </div>
@@ -317,12 +314,12 @@
             <div class="margin10">
               <textarea class="" id="messageInput" rows="5" placeholder="Message"></textarea>
             </div>
-            <a href="#home" ><button type="submit" class="btn">Submit</button></a>
+            <a href="#home"><button type="submit" class="btn" id="formSubmit">Submit</button></a>
+            <!-- <button type="submit" class="btn">Submit</button> -->
           </form>
         </div>
       </div>
     </section>
-
     <!-- end contact section  -->
   </main>
 
@@ -348,6 +345,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-database.js"></script>
 
   <!-- **********custome.js file********** -->
   <script type="text/javascript" src="./js/custom.js"></script>
