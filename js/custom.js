@@ -130,12 +130,12 @@ submit.addEventListener('click', function (event) {
 
         alert('secessfull sended ....');
         // Push the form data to Firebase
-        database.ref("contacts").push({
-            name: name,
-            email: email,
-            message: message,
-            timestamp: firebase.database.ServerValue.TIMESTAMP
-        });
+        // database.ref("contacts").push({
+        //     name: name,
+        //     email: email,
+        //     message: message,
+        //     timestamp: firebase.database.ServerValue.TIMESTAMP
+        // });
 
         // Clear form fields after submission
 
@@ -145,18 +145,18 @@ submit.addEventListener('click', function (event) {
 });
 
 // Your Firebase web app's configuration object
-const firebaseConfig = {
-    apiKey: "AIzaSyAdX3ncCibgyNLq2M_B70VNHbi2MjlMzos",
-    authDomain: "shoyab-mansoori.firebaseapp.com",
-    projectId: "shoyab-mansoori",
-    storageBucket: "shoyab-mansoori.appspot.com",
-    messagingSenderId: "976060079049",
-    appId: "1:976060079049:web:fc5d234e5d86cd1108a618",
-    measurementId: "G-JHYBDTSKQ7"
-};
+// const firebaseConfig = {
+//     apiKey: "AIzaSyAdX3ncCibgyNLq2M_B70VNHbi2MjlMzos",
+//     authDomain: "shoyab-mansoori.firebaseapp.com",
+//     projectId: "shoyab-mansoori",
+//     storageBucket: "shoyab-mansoori.appspot.com",
+//     messagingSenderId: "976060079049",
+//     appId: "1:976060079049:web:fc5d234e5d86cd1108a618",
+//     measurementId: "G-JHYBDTSKQ7"
+// };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+// firebase.initializeApp(firebaseConfig);
 
 // Get a reference to the database service
-const database = firebase.database();
+// const database = firebase.database();
